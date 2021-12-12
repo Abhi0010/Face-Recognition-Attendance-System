@@ -4,28 +4,28 @@ Face-Recognition Attendance System is attendance marking application where an im
 model where faces are detected and matched with the existing database.Eventually
 based on the matched faces , attendance is marked of the users.
 
-# Frontend
+##Frontend
 
-## Install dependencies
+# Install dependencies
 npm install
 
-## Run application
-npm run
+# Run application
+npm run dev
 
-# Backend
+##Backend
 
-## To create new virtual env
+#To create new virtual env
 python -m venv env
 
-## To activate virtual env
+#To activate virtual env
 env\Scripts\activate.bat
 
-## Install required dependencies in virtual env
+#Install required dependencies in virtual env
 pip list- To see all dependencies installed
 
-## To create requirements.txt file:
+#To create requirements.txt file:
 pip freeze > requirements.txt
 
-## To install requirements.txt in new project
+#To install requirements.txt in new project
 pip install -r requirements.txt
 
